@@ -56,6 +56,8 @@ define('NONCE_SALT',       'put your unique phrase here');
 
 /**#@-*/
 
+define('WP_SITEURL', 'http://' . $_SERVER['SERVER_NAME']);
+
 /**
  * WordPress Database Table prefix.
  *
