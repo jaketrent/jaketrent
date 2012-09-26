@@ -1087,7 +1087,7 @@ PRINT STYLES
 @media print { }
 
 /*Jake's custom additions*/
-#disqus_thread {
+/*#disqus_thread {
   padding: 2.2em 30px;
-}
+}*/
 
