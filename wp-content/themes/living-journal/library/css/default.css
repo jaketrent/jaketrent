@@ -392,3 +392,8 @@ PRINT STYLES
   h2, h3{ page-break-after: avoid; }
 }
 
+/*Jake custom*/
+ol code, ul code, p code { padding: 1px 2px; margin: 0; background: #F7DF2B; border-radius: 2px; }
+pre {
+  white-space: pre;
+}
