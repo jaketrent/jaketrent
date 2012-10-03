@@ -393,7 +393,17 @@ PRINT STYLES
 }
 
 /*Jake custom*/
-ol code, ul code, p code { padding: 1px 2px; margin: 0; background: #F7DF2B; border-radius: 2px; }
+pre, code, kbd, samp {
+  margin: 1.5em 0;
+}
+ol code,
+ul code,
+p code {
+  padding: 1px 2px;
+  background: #F7DF2B;
+  border-radius: 2px;
+}
 pre {
   white-space: pre;
+  background: rgba(247, 223, 43, 0.34);
 }
