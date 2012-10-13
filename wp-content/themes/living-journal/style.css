@@ -1090,4 +1090,32 @@ PRINT STYLES
 #disqus_thread {
   padding: 2.2em 30px;
 }
-
+#site-heading {
+  overflow: hidden;
+}
+#site-img {
+  float: left;
+}
+#site-verbage {
+  float: left;
+}
+#site-title {
+  margin: 12px 300px 0 15px;
+}
+#site-description {
+  margin-left: 15px;
+}
+@media screen and (max-width: 768px) {
+  #site-heading {
+    padding-right: 0;
+  }
+  #site-img {
+    max-width: 64px;
+  }
+  #site-title {
+    margin: 0 0 0 4px;
+  }
+  #site-description {
+    margin-left: 4px;
+  }
+}
