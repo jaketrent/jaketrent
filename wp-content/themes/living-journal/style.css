@@ -1095,6 +1095,7 @@ PRINT STYLES
 }
 #site-img {
   float: left;
+  max-width: 64px;
 }
 #site-verbage {
   float: left;
@@ -1108,9 +1109,6 @@ PRINT STYLES
 @media screen and (max-width: 768px) {
   #site-heading {
     padding-right: 0;
-  }
-  #site-img {
-    max-width: 64px;
   }
   #site-title {
     margin: 0 0 0 4px;
