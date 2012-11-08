@@ -1094,11 +1094,14 @@ PRINT STYLES
   overflow: hidden;
 }
 #site-img {
-  float: left;
-  max-width: 64px;
+  position: absolute;
+  top: -25px;
+  left: -25px;
+  z-index: 2;
 }
 #site-verbage {
-  float: left;
+  position: absolute;
+  z-index: 1;
 }
 #site-title {
   margin: 12px 300px 0 15px;
