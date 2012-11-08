@@ -1097,11 +1097,11 @@ PRINT STYLES
   position: absolute;
   top: -25px;
   left: -25px;
-  z-index: 2;
+  z-index: 1;
 }
 #site-verbage {
   position: absolute;
-  z-index: 1;
+  z-index: 2;
 }
 #site-title {
   margin: 12px 300px 0 15px;
